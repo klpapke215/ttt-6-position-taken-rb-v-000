@@ -1,3 +1,5 @@
 def position_taken(board, index)
-  board[index]
+  if index == "   "
+    "false"
+  end
 end
